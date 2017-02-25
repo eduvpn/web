@@ -1,0 +1,19 @@
+/** 
+ * eduvpn custom style
+ */
+h1, h2, h3, h4 {
+    font-weight: 300;
+}
+
+a {
+    color: #df7f0c;
+}
+
+ul.menu {
+    /* same height as background image of the h1 */
+    height: 119px;
+}
+
+ul.menu li.active a {
+    background-color: #df7f0c;
+}
