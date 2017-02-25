@@ -1,0 +1,145 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    max-width: 60em;
+    margin: 0em auto;
+    color: #555;
+    line-height: 1.4;
+    font-size: 0.9em;
+    padding: 0.3em;
+    text-align: justify;
+}
+
+h1 {
+    display: inline;
+    font-weight: bold;
+}
+
+a {
+    color: #222;
+}
+
+dt {
+    margin: 0.5em 0;
+    font-weight: bold;
+}
+
+.text-right {
+    text-align: right;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset button {
+    margin-top: 1em;
+}
+
+code {
+    background-color: #ddd;
+    padding: 0 0.2em;
+}
+
+p.success, p.warning, p.error, p.block {
+    padding: 1em;
+}
+
+p.success code, p.warning code, p.error code, p.block code {
+    color: #222;
+}
+
+p.success, p.success a {
+    color: #fff;
+    background-color: green;
+}
+
+p.warning, p.warning a {
+    color: #fff;
+    background-color: #df7f0c;
+}
+
+p.error, p.error a {
+    color: #fff;
+    background-color: red;
+}
+
+p.block, p.block a {
+    color: #555;
+    background-color: #eee;
+}
+
+span.success, span.success a {
+    color: green;
+}
+
+span.warning, span.warning a {
+    color: #df7f0c;
+}
+
+span.error, span.error a {
+    color: red;
+}
+
+ul.menu {
+    margin-bottom: 2em;
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline;
+    font-weight: bold;
+}
+
+ul.menu li.active a {
+    color: #fff;
+    background-color: #555;
+}
+
+ul.menu li a {
+    display: inline-block;
+    padding: 0.7em;
+    text-decoration: none;
+    color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 3.5em;
+}
+
+td, th {
+    padding: 0 0.5em;
+}
+
+thead th {
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 0.7em 0 0.3em 0;
+}
+
+hr {
+    display: none;
+}
+
+div.footer {
+    margin-top: 3em;
+    text-align: center;
+    font-size: 75%;
+}
+
+div.footer form {
+    display: inline-block;
+    margin: 0 1em;
+}
+
